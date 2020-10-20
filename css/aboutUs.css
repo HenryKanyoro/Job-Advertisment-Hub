@@ -1,0 +1,27 @@
+.aboutUsHeading {
+    background-image: url(../img/darkwood.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    text-align: center;
+    width: 100%;
+    height: 70mm;
+}
+.aboutUsHeading h1 {
+    padding-top: 30mm;
+    font-size: 10mm;
+    font-style: oblique;
+    
+}
+.aboutUsDetails {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 7mm;
+    padding-bottom: 50mm;
+    font-family: 'Playfair Display', serif;
+}
+.aboutUsMain {
+    color: yellow;
+    padding-bottom: 10mm;
+}
