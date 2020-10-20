@@ -21,7 +21,43 @@
     padding-bottom: 50mm;
     font-family: 'Playfair Display', serif;
 }
+.aboutUsDetails p {
+    padding-top: 8mm;
+}
 .aboutUsMain {
     color: yellow;
     padding-bottom: 10mm;
+    padding-top: 5mm;
+}
+.aboutUsMain img {
+    height: 120mm;
+}
+.whatWeDo {
+    background-image: url(../img/darkwood.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10mm;
+    padding-bottom: 30mm;
+}
+.whatWeDo h2{
+    padding-bottom: 15mm;
+    padding-top: 15mm;
+    font-size: 10mm;
+    font-style: oblique;
+}
+.ourGoal {
+    padding-top: 20mm;
+}
+.floatcaption {
+    cursor: pointer;
+}
+.floatcaption .caption {
+    display: none;
+    background: white;
+    color: black;
+    padding: 15%;
+    opacity: 0.6;
+    width: 250px;
+    position: absolute;
+    bottom: 20%;
 }
