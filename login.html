@@ -11,7 +11,7 @@
 <body>
     <h2>Login Form</h2>
 
-    <form>
+    <form id="checkout">
       <div class="imgcontainer">
         <img src="./loginimages/mzito.png" alt="Avatar" class="avatar" width="0px" height="200px">
       </div>
@@ -23,8 +23,8 @@
         <label for="psw"><b>Password</b></label>
         <input type="password" placeholder="Enter Password" name="psw" id="pass2" required>
             
-        <button type="submit">Login</button>
-        <button type="reset">cancel</button>
+        <!-- <button type="submit">Login</button>
+        <button type="reset">cancel</button> -->
 
         <label>
           <input type="checkbox" checked="checked" name="remember"> Remember me
@@ -32,10 +32,11 @@
       </div>
     
       <div class="container" style="background-color:#f1f1f1">
-        <a href="sign up.html"><button type="button" class="cancelbtn btn-outline-danger">Cancel</button></a>
-        <button type="button" class="cancelbtn btn-outline-success">Log in</button>
+        <a href="sign up.html"><button type="submit" class="cancelbtn btn-outline-danger">Cancel</button></a>
+        <button type="submit" class="cancelbtn btn-outline-success">Log in</button>
         <span class="psw">Forgot <a href="#">password?</a></span>
       </div>
+      <div id="checked"></div>
     </form>
     
            
@@ -106,7 +107,7 @@
         </style>  
           <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-              <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="./js/signUp.js"></script>             
 </body>
 </html>
