@@ -19,6 +19,10 @@ $(document).ready(function () {
         const newSign = new Sign(email1, pass1, rpass1, name1)
         newSignUp.push(Sign)
 
+      $("#name1").val("");
+      $("#pass1").val("");
+      $("#rpass1").val("");
+      $("#email1").val("");
         if (email1 === "") {
             alert("Please Insert your email")
         } else if (pass1 === "") {
@@ -51,14 +55,15 @@ $(document).ready(function () {
 
         const newLogin = new Login(name2,pass2)
 
+        $("#name2").val("");
+      $("#pass2").val("");
+
         console.log(newLogin)
 
         if (name2 === "") {
             alert("Please insert your name")
         } else if (pass2 === ""){
             alert("Please insert a password")
-        }else if(pass2 !== pass2){
-            alert("Incorrect password")
         }else{
             alert(' Dear ' + name2 + ' we have received your message successfully. ' + ' Feel free to interact with our website. ')
         }
