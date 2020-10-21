@@ -53,12 +53,13 @@ $(document).ready(function () {
         var name2 = $("#name2").val();
         var pass2= $("#pass2").val();
 
-        const newLogin = new Login(name2,pass2)
+        const newlogin = new Login(name2,pass2)
 
         $("#name2").val("");
       $("#pass2").val("");
 
-        console.log(newLogin)
+        // console.log(newLogin)
+        newLogin.push(newlogin)
 
         if (name2 === "") {
             alert("Please insert your name")

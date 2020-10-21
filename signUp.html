@@ -1,125 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>SIGN-UP</title>
     <link rel="stylesheet" href="./css/signUp.css">
 </head>
+
 <body>
+    <div id="hank">
+        <nav>
+            <dl>
+                <dt><a href="index.html">Home</a></dt>
+                <dt><a href="jobs.html">Jobs</a></dt>
+                <dt><a href="services.html">Services</a></dt>
+                <dt><a href="about-us.html">About us</a></dt>
+                <dt><a href="login.html">Login</a></dt>
+                <dt><a href="signUp.html">Sign up</a></dt>
+                <dt><a href="contact us.html">Contact us</a></dt>
+
+            </dl>
+        </nav>
+    </div>
+    <div id="signUp">
     <div class="signup text-center bg-secondary">
         <h1>Create Account</h1>
         <form style="border:1px solid #ccc" id="proceed">
             <div class="container">
-              <h1>Sign Up</h1>
-              <p>Please fill in this form to create an account.</p>
-              <hr>
-              <label for="email"><b>Name</b></label>
-              <input type="text" placeholder="Enter your name" name="email" id="name1" required>
-          
-              <label for="email"><b>Email</b></label>
-              <input type="text" placeholder="Enter Email" name="email" id="email1" required>
-          
-              <label for="psw"><b>Password</b></label>
-              <input type="password" placeholder="Enter Password" name="psw" id="pass1" required>
-          
-              <label for="psw-repeat"><b>Repeat Password</b></label>
-              <input type="password" placeholder="Repeat Password" name="psw-repeat" id="rpass1" required>
-              
-              <label>
-                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-              </label>
-              
-              <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
-          
-              <!-- <div class="clearfix">
+                <h1>Sign Up</h1>
+                <p>Please fill in this form to create an account.</p>
+                <hr>
+                <label for="email"><b>Name</b></label>
+                <input type="text" placeholder="Enter your name" name="email" id="name1" required>
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" id="email1" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" id="pass1" required>
+
+                <label for="psw-repeat"><b>Repeat Password</b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" id="rpass1" required>
+
+                <label>
+                    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                </label>
+
+                <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+                <!-- <div class="clearfix">
                 <button type="button" class="cancelbtn">Cancel</button>
                 <button type="submit" class="signupbtn">Sign Up</button>
               </div>
             </div> -->
-        <a href="login.html" ><button type="button" class="cancelbtn  btn-outline-primary" > sign in </button></a>
-        <button type="submit" class="signupbtn btn-outline-primary"> sign up</button>
-        <div id="signNew"></div>
-      </form>
+                <a href="login.html"><button type="button" class="cancelbtn  btn-outline-primary"> sign in </button></a>
+                <button type="submit" class="signupbtn btn-outline-primary"> sign up</button>
+                <div id="signNew"></div>
+        </form>
 
-
-<style>
-    body {font-family: Arial, Helvetica, sans-serif;}
-    * {box-sizing: border-box}
-    
-    /* Full-width input fields */
-    input[type=text], input[type=password] {
-      width: 100%;
-      padding: 15px;
-      margin: 5px 0 22px 0;
-      display: inline-block;
-      border: none;
-      background: #f1f1f1;
-    }
-    
-    input[type=text]:focus, input[type=password]:focus {
-      background-color: #ddd;
-      outline: none;
-    }
-    
-    hr {
-      border: 1px solid #f1f1f1;
-      margin-bottom: 25px;
-    }
-    
-    /* Set a style for all buttons */
-    button {
-      background-color: #4CAF50;
-      color: white;
-      padding: 14px 20px;
-      margin: 8px 0;
-      border: none;
-      cursor: pointer;
-      width: 100%;
-      opacity: 0.9;
-    }
-    
-    button:hover {
-      opacity:1;
-    }
-    
-    /* Extra styles for the cancel button */
-    .cancelbtn {
-      padding: 14px 20px;
-      background-color: #f44336;
-    }
-    
-    /* Float cancel and signup buttons and add an equal width */
-    .cancelbtn, .signupbtn {
-      float: left;
-      width: 50%;
-    }
-    
-    /* Add padding to container elements */
-    .container {
-      padding: 16px;
-    }
-    
-    /* Clear floats */
-    .clearfix::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
-    
-    /* Change styles for cancel button and signup button on extra small screens */
-    @media screen and (max-width: 300px) {
-      .cancelbtn, .signupbtn {
-         width: 100%;
-      }
-    }
-    </style>
     </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            * {
+                box-sizing: border-box
+            }
+
+            /* Full-width input fields */
+            input[type=text],
+            input[type=password] {
+                width: 100%;
+                padding: 15px;
+                margin: 5px 0 22px 0;
+                display: inline-block;
+                border: none;
+                background: #f1f1f1;
+            }
+
+            input[type=text]:focus,
+            input[type=password]:focus {
+                background-color: #ddd;
+                outline: none;
+            }
+
+            hr {
+                border: 1px solid #f1f1f1;
+                margin-bottom: 25px;
+            }
+
+            /* Set a style for all buttons */
+            button {
+                background-color: #4CAF50;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+                opacity: 0.9;
+            }
+
+            button:hover {
+                opacity: 1;
+            }
+
+            /* Extra styles for the cancel button */
+            .cancelbtn {
+                padding: 14px 20px;
+                background-color: #f44336;
+            }
+
+            /* Float cancel and signup buttons and add an equal width */
+            .cancelbtn,
+            .signupbtn {
+                float: left;
+                width: 50%;
+            }
+
+            /* Add padding to container elements */
+            .container {
+                padding: 16px;
+            }
+
+            /* Clear floats */
+            .clearfix::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+
+            /* Change styles for cancel button and signup button on extra small screens */
+            @media screen and (max-width: 300px) {
+
+                .cancelbtn,
+                .signupbtn {
+                    width: 100%;
+                }
+            }
+        </style>
+        <div id="footer">
+            <footer>
+                <img src="">
+                <a href="signUp.html"><img src="./loginimages/images/behance.png"></a>
+                <a href="signUp.html"><img src="./loginimages/images/twitter.png"></a>
+                <a href="signUp.html"><img src="./loginimages/images/you_tube.png"></a>
+                <a href="signUp.html"><img src="./loginimages/images/dribble.png"></a>
+                <a href="signUp.html"><img src="./loginimages/images/facebook.png"></a>
+                <a href="signUp.html"><img src="./loginimages/images/flickr.png"></a>
+                <a href="signUp.html"><img src="./loginimages/images/g_plus.png"></a>
+                <a href="signUp.html"><img src="./loginimages/images/skype.png"></a>
+
+                <h4>JOB ADVERTISEMENT HUB</h4>
+                <h4>2020</h4>
+
+            </footer>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
     <script src="./js/signUp.js"></script>
 </body>
+
 </html>
