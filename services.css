@@ -18,7 +18,7 @@
 }
 #logo-txt p{
     font-size: 1.5em;
-    color: white;
+    color: navajowhite;
     text-align: center;
 }
 #logo-txt {
@@ -27,7 +27,7 @@
 #logo-txt h1, h2{
     font-family:url('https://fonts.google.com/specimen/Sansita+Swashed');
     font-size: 2.5em;
-    color: white;
+    color: blue;
     text-align: center;
     padding-top: 2%;
 }
@@ -60,7 +60,7 @@ html{
     height: 385px;
     background-image;
     background-size: cover;
-    color: white;
+    color: black;
 }
 .services p{
     text-align: center;
@@ -70,7 +70,7 @@ html{
 }
 #what-do{
     font-size: 2.5em;
-    text-align: center;
+    text-align: center; padding-top: 1%;
 }
 #port-imgs img{
     max-width: 100%;
