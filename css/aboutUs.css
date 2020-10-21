@@ -1,0 +1,97 @@
+#hank nav dl :hover{
+    color: teal;
+    font-size: 34px;
+}
+
+#hank nav dl{
+    display: flex;
+    padding: 40px;
+    justify-content: space-evenly;
+    font-size: 36px;
+    background-color: black;
+    color: white;
+    
+}
+#hank nav dl :hover{
+    color: teal;
+    font-size: 34px;
+}
+#hank nav dl dt a{
+    color: white;
+}
+.aboutUsHeading {
+    background-image: url(../img/darkwood.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    text-align: center;
+    width: 100%;
+    height: 70mm;
+}
+.aboutUsHeading h1 {
+    padding-top: 30mm;
+    font-size: 10mm;
+    font-style: oblique;
+    
+}
+.aboutUsPage {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 7mm;
+    padding-bottom: 50mm;
+    font-family: 'Playfair Display', serif;
+}
+.aboutUsDetails p {
+    padding-top: 8mm;
+}
+.aboutUsMain {
+    color: rgb(4, 172, 4);
+    padding-bottom: 10mm;
+    padding-top: 5mm;
+}
+.whatWeDo {
+    background-image: url(../img/darkwood.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10mm;
+    padding-bottom: 30mm;
+}
+.whatWeDo h2{
+    padding-bottom: 15mm;
+    padding-top: 15mm;
+    font-size: 10mm;
+    font-style: oblique;
+}
+.floatcaption {
+    cursor: pointer;
+}
+.floatcaption .caption {
+    display: none;
+    background: white;
+    color: black;
+    opacity: 0.6;
+    width: 250px;
+    position: absolute;
+    bottom: 5%;
+    padding-left: 40mm;
+    padding-right: 30mm;
+}
+.ourGoal {
+    padding-top: 20mm;
+    background-image: url(../img/shakinghands.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250mm;
+    color: black;
+}
+#footer{
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: black;
+    
+}
+#footer img{
+    padding-top: 10px;
+
+}
