@@ -13,7 +13,7 @@
     font-style: oblique;
     
 }
-.aboutUsDetails {
+.aboutUsPage {
     background-color: black;
     color: whitesmoke;
     text-align: center;
@@ -25,12 +25,9 @@
     padding-top: 8mm;
 }
 .aboutUsMain {
-    color: yellow;
+    color: rgb(4, 172, 4);
     padding-bottom: 10mm;
     padding-top: 5mm;
-}
-.aboutUsMain img {
-    height: 120mm;
 }
 .whatWeDo {
     background-image: url(../img/darkwood.jpg);
@@ -45,9 +42,6 @@
     font-size: 10mm;
     font-style: oblique;
 }
-.ourGoal {
-    padding-top: 20mm;
-}
 .floatcaption {
     cursor: pointer;
 }
@@ -55,9 +49,18 @@
     display: none;
     background: white;
     color: black;
-    padding: 15%;
     opacity: 0.6;
     width: 250px;
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
+    padding-left: 40mm;
+    padding-right: 30mm;
+}
+.ourGoal {
+    padding-top: 20mm;
+    background-image: url(../img/shakinghands.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250mm;
+    color: black;
 }
