@@ -1,0 +1,153 @@
+.home{
+    background-image: url('../images/background/h_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: stretch;
+    animation-duration: 1.5s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running; 
+} 
+
+#logo-img{
+    padding-top: 12%;
+    margin-left: 48%;
+}
+#logo-txt p{
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+}
+#logo-txt {
+    font-size: 1.3em;
+}
+#logo-txt h1, h2{
+    font-family:url('https://fonts.google.com/specimen/Sansita+Swashed');
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.txt-sm{
+    font-size: .7em;
+}
+body {
+    font-family: 'Balsamiq Sans', serif;
+    font-size: 1.3em;  
+}
+html{
+    scroll-behavior: smooth;
+}
+#mouse{
+    height: 55px;
+    margin-left: 50%;
+    margin-top: 12%;
+    background-image: url('../images/mouse.png');
+    background-repeat: no-repeat;
+    animation: ease-in-out;
+    animation-duration: 1.5s;
+} 
+#container-fluid{
+    padding: 0px, 0px;
+    margin-right: 1px;
+    margin-left: 0px;
+}
+.services{
+    height: 385px;
+    background-image;
+    background-size: cover;
+    color: white;
+}
+.services p{
+    text-align: center;
+}
+#services-title{
+    font-size: 2.3em;
+}
+#what-do{
+    font-size: 2.5em;
+    text-align: center;
+}
+#port-imgs img{
+    max-width: 100%;
+}
+#port-imgs{
+    margin-right: 18%;
+    margin-left: 18%;
+}
+.carousel-caption{
+    display: none;
+}
+#port-imgs img:hover{
+    opacity: .6;
+}
+.img-txt p{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.contact{
+    background-image: url('../images/background/c_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    color: white;
+    font-size: 2.5em;
+}
+.contact p{
+    text-align: center;
+}
+.form-control{
+    border: 2px solid white;
+    background-color: transparent;
+}
+.danger{
+    border: 2px solid red;
+}
+.form-control::placeholder{
+    color: white;
+}
+input[type="text"]::placeholder, input[type="email"]::placeholder{
+    color: white;
+}
+#social > .col{
+    flex-grow: unset;
+}
+.outro p{
+    text-align: center;
+    font-weight: bold;
+}
+#design-txt, #development-txt, #product-txt{
+    display: none;
+    margin-left: -24%;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+.toast{
+    color: black;
+    display: none;
+    
+}
+@keyframes bounce{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-20px);
+    }
+}@media(min-width: 600px){
+    .navbar img{
+        width: 40%;
+        margin-left: 27%;
+    }
+}
+@media(min-width: 900px){
+    .navbar img{
+        width: 30%;
+        height: 50%;
+        margin-left: 35%;
+    }
+}
