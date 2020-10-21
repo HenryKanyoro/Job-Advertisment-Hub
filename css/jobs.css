@@ -1,0 +1,119 @@
+#hank nav dl{
+    display: flex;
+    padding: 40px;
+    justify-content: space-evenly;
+    font-size: 36px;
+    background-color: black;
+    color: white;
+    
+}
+#hank nav dl :hover{
+    color: teal;
+    font-size: 34px;
+}
+#hank nav dl dt a{
+    color: white;
+    text-decoration: none;
+}
+#all{
+    background-image: url(../images/saulo-mohana-wNz7_5EvUWU-unsplash.jpg);
+    background-size: cover;
+    
+}
+#jobs{
+    background-color: rgba(30, 12, 56, 0.3);
+    height: 105vh;
+    color: white;
+}
+h2{
+    text-align: center;
+    font-size: 46px;
+}
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow{
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(30, 12, 56, 0.6);
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  } 
+  
+  .col-md-3:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  } 
+  .row img{
+    height: 420px;
+    width: 420px;
+}
+#footer{
+  text-align: center;
+  justify-content: space-evenly;
+  background-color: black;
+  
+}
+#footer img{
+  padding-top: 10px;
+
+}
+#health img{
+  width: 250px;
+  height: 250px;
+}
+#SCIENCE img{
+  width: 250px;
+  height: 250px;
+}
+#ENGINEERING img{
+  width: 250px;
+  height: 250px;
+}
+#TEACHING img{
+  width: 250px;
+  height: 250px;
+}
+#TEACHING{
+  height: 100vh;
+}
+.container {
+  text-align: center;
+}

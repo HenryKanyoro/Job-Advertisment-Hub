@@ -6,21 +6,25 @@
     height: 100vh;
     width: 100%;
 }
+#hank nav dl :hover{
+    color: teal;
+    font-size: 34px;
+}
 
-#hank nav ul{
+#hank nav dl{
     display: flex;
     padding: 40px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-size: 36px;
     background-color: black;
     color: white;
     
 }
-#hank nav ul :hover{
+#hank nav dl :hover{
     color: teal;
     font-size: 34px;
 }
-#hank nav ul li a{
+#hank nav dl dt a{
     color: white;
 }
 #job{
@@ -40,7 +44,7 @@ h2{
 
 #heading{
     text-align: center;
-    padding-top: 15%;
+    padding-top: 10%;
     color: yellowgreen;
     
 }
@@ -48,3 +52,52 @@ h2{
     text-align: center;
     font-size: 24px;
 }
+/* form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .example img{
+      height: 50px;
+      width: 39px;
+     
+  }
+  form{
+    margin-right: 10px;
+  } */
+  #footer{
+      text-align: center;
+      justify-content: space-evenly;
+      background-color: black;
+      
+  }
+  #footer img{
+      padding-top: 10px;
+
+  }
+ 
