@@ -60,7 +60,7 @@ html{
     height: 385px;
     background-image;
     background-size: cover;
-    color: black;
+    color: black; font-style: italic;
 }
 .services p{
     text-align: center;
@@ -69,15 +69,15 @@ html{
     font-size: 2.3em;
 }
 #what-do{
-    font-size: 2.5em;
-    text-align: center; padding-top: 1%;
+    font-size: 2.8em;
+    text-align: center; padding-top: 1%; font-style: italic;
 }
 #port-imgs img{
-    max-width: 100%;
+    max-width: 90%;
 }
 #port-imgs{
-    margin-right: 18%;
-    margin-left: 18%;
+    margin-right: 15%;
+    margin-left: 15%;
 }
 .carousel-caption{
     display: none;
