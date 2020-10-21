@@ -22,7 +22,7 @@ $(document).ready(function(){
         });
     });
 
-    $('form.validate').submit(function(event){
+    $('form.validate').subscribe(function(event){
         var user = document.getElementById('username').value;
         var email = document.getElementById('email').value;
         var message = document.getElementById('message').value;
