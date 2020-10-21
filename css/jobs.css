@@ -112,8 +112,24 @@ h2{
   height: 250px;
 }
 #TEACHING{
-  height: 100vh;
+  height: 110vh;
+  background-color: wheat;
 }
-.container {
+
+
+.container-fluid {
   text-align: center;
+
+}
+#SCIENCE{
+  background-color: wheat;
+  height: 110vh;
+}
+#ENGINEERING{
+  background-color: wheat;
+  height: 110vh;
+}
+#health{
+  background-color: wheat;
+  height: 110vh;
 }
